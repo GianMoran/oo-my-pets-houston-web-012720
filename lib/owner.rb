@@ -35,7 +35,5 @@ class Owner
   cats = Cats.all.select.do |cat|
       cat.owner == self 
     end
-    cats.each do |cat|
-      Owner.count == cat.length
-  end
+   
 end

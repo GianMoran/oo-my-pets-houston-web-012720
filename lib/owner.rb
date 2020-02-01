@@ -22,7 +22,9 @@ class Owner
     @@count = 0
   end
   def cats 
-    Owner.all.select do |cat|
+   Cat.all.select do  |cat|
+     cat.owner ==
+   end
       
     end
   end

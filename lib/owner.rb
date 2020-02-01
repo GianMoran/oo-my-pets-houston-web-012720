@@ -44,5 +44,9 @@ class Owner
        binding.pry
      end
    end
-   
+   def feed_cats 
+     self.cats.each do |cat|
+       cat.mood = "happy"
+       binding.pry
+     end
 end

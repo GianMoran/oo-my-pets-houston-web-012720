@@ -21,4 +21,9 @@ class Owner
   def self.reset_all
     @@count = 0
   end
+  def cats 
+    Owner.all.select do |cat|
+      
+    end
+  end
 end

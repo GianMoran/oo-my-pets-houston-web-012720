@@ -36,6 +36,6 @@ class Owner
       cat.owner == self 
     end
     cats.each do |cat|
-      Owner.count
+      Owner.count == cat.length
   end
 end

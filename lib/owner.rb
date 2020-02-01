@@ -19,7 +19,7 @@ class Owner
     @@count
   end
   def self.reset_all
-    @@count 
+    @@count = 0
     binding.pry
   end
 end

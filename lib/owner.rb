@@ -32,7 +32,7 @@ class Owner
    end
   end
   def buy_cat(name)
-    CAT.all.select do |cat|
+    Cat.all.select do |cat|
       cat.owner == self 
     end
   end

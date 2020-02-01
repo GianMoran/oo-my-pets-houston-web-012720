@@ -48,4 +48,8 @@ class Owner
        cat.mood = "happy"
      end
    end
+   def sell_pets 
+     pets = self.cats + self.dogs 
+     binding.pry
+   end
 end

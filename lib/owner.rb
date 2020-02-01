@@ -36,7 +36,8 @@ class Owner
   end
    def buy_dog(name)
      Dog.new(name,self)
-     binding.pry
-   end
    
+   end
+   def walk_dogs
+   end
 end

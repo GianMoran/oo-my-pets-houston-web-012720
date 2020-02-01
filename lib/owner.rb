@@ -25,7 +25,5 @@ class Owner
    Cat.all.select do  |cat|
      cat.owner == self
    end
-      
-    end
   end
 end

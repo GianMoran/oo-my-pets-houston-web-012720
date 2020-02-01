@@ -32,8 +32,11 @@ class Owner
    end
   end
   def buy_cat(name)
-    Cat.all.select do |cat|
+    cats =Cat.all.select do |cat|
       cat.owner == self 
     end
+    cats.map do |cat|
+    cat.count == self
+  end
   end
 end

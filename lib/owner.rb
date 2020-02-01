@@ -39,5 +39,6 @@ class Owner
    
    end
    def walk_dogs
+     self.dogs
    end
 end
